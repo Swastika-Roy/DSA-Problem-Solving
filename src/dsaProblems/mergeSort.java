@@ -2,9 +2,9 @@ package dsaProblems;
 
 import java.util.Arrays;
 
-public class mergeSort {
+public class mergeSort{
 
-    public static void mergeSort(int arr[]){
+        public static void mergeSort(int arr[]){
         //if arr has less than or have 1 element then
         if(arr.length <= 1){
             return;
@@ -64,7 +64,10 @@ public class mergeSort {
 
     }
 
-    static void print(int arr[]){
+
+
+
+static void print(int arr[]){
         for(int i=0;i<arr.length;i++){
             System.out.print(arr[i]+" ");
         }
